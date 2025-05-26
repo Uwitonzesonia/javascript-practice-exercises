@@ -1,19 +1,10 @@
-const num1 = 50;
-const num2 = 10;
-const num3 = 60;
-const product = num1 * num2 * num3;{
-  console.log("product:", product);
+let num1 = 40;
+let num2 = 60;
+let num3 = 10;
+let number = [num1 , num2, num3];
+number.sort((a,b) => a - b);{
+  console.log("the sorted numbers are:", number);
 }
-const sum = num1 + num2 + num3;{
-  console.log("sum:", sum);
-}
-const substraction = num1 - num2 - num3;{
-  console.log("substraction", substraction);
-}
-const division = num1 / num2 / num3;{
-  console.log("division:", division);
-}
-const modulo = num1 % num2;{
-  console.log("division:", division);
-}
+
+
 
