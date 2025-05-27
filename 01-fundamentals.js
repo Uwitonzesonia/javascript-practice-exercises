@@ -1,9 +1,8 @@
-for( i = 0 ; i <= 15 ; i++) {
-  if (i % 2 === 0){
-    console.log(i+"i is even number");
-  } else {
-    console.log(i+"i is odd number");
-  }
+var num = 10;
+if (num > 0) {
+  console.log(" num is positive");
+} else {
+  console.log("num is negative");
 }
 
 
