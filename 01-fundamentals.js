@@ -1,8 +1,8 @@
 for( i = 0 ; i <= 15 ; i++) {
   if (i % 2 === 0){
-    console.log(i+"i is even");
+    console.log(i+"i is even number");
   } else {
-    console.log(i+"i is odd");
+    console.log(i+"i is odd number");
   }
 }
 
